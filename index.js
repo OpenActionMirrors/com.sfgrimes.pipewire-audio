@@ -655,7 +655,9 @@ function handleKeyDown(action, context, settings) {
       break;
     case "switchoutput":
     case "switchinput":
-      pipewire.setDefault(target, cb);
+      pipewire.setDefault(target, () => {
+        setTimeout(refreshAllTitles, 50);
+      });
       break;
   }
 }
