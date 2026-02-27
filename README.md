@@ -27,7 +27,7 @@ A Stream Deck plugin for controlling PipeWire audio on Linux via [OpenDeck](http
 ./build.sh
 ```
 
-This bumps the patch version, installs dependencies, and produces `builds/com.sfgrimes.pipewire-audio.streamDeckPlugin`, which can be installed through OpenDeck.
+Installs dependencies and produces `builds/com.sfgrimes.pipewire-audio.streamDeckPlugin`, which can be installed through OpenDeck.
 
 ## Actions
 
