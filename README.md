@@ -4,15 +4,15 @@ A Stream Deck plugin for controlling PipeWire audio on Linux via [OpenDeck](http
 
 ## Features
 
-- **Master Volume** -- Increase, decrease, and mute system audio
-- **Microphone Control** -- Increase, decrease, and mute the default mic input
-- **Per-App Audio** -- Control volume and mute for individual applications
-- **Output Device Control** -- Select a specific output sink and control its volume/mute independently
-- **Input Device Control** -- Select a specific input source and control its volume/mute independently
-- **Device Switching** -- Assign a button to any output or input device; press to set it as the system default. Active device shows a green bar, inactive shows grey.
-- **Configurable Volume Step** -- Per-action slider (1--20%) controls how much each button press or dial tick changes volume
-- **Encoder Support** -- Dial rotation for volume adjustment (step multiplied by ticks), press/touch to toggle mute or switch default device
-- **Real-time Feedback** -- Live volume bars and device names on button/encoder screens, updated automatically when PipeWire state changes
+- **Master Volume** - Increase, decrease, and mute system audio
+- **Microphone Control** - Increase, decrease, and mute the default mic input
+- **Per-App Audio** - Control volume and mute for individual applications
+- **Output Device Control** - Select a specific output sink and control its volume/mute independently
+- **Input Device Control** - Select a specific input source and control its volume/mute independently
+- **Device Switching** - Assign a button to any output or input device; press to set it as the system default. Active device shows a green bar, inactive shows grey.
+- **Configurable Volume Step** - Per-action slider (1--20%) controls how much each button press or dial tick changes volume
+- **Encoder Support** - Dial rotation for volume adjustment (step multiplied by ticks), press/touch to toggle mute or switch default device
+- **Real-time Feedback** - Live volume bars and device names on button/encoder screens, updated automatically when PipeWire state changes
 
 ## Requirements
 
