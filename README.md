@@ -86,7 +86,7 @@ Requires=pipewire.service
 
 [Service]
 Type=oneshot
-ExecStart=%h/.config/pipewire/systemd/sinks.sh
+ExecStart=~/.config/pipewire/systemd/sinks.sh
 RemainAfterExit=true
 
 [Install]
