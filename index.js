@@ -572,9 +572,9 @@ function pushAppListToOpenPIs() {
   if (openPIs.size === 0) return;
   pipewire.getLists((apps, sinks, sources) => {
     for (const piContext of openPIs) {
-      sendToPropertyInspector(piContext, { event: "appList", apps });
-      sendToPropertyInspector(piContext, { event: "sinkList", sinks });
-      sendToPropertyInspector(piContext, { event: "sourceList", sources });
+      if (apps.length > 0) sendToPropertyInspector(piContext, { event: "appList", apps });
+      if (sinks.length > 0) sendToPropertyInspector(piContext, { event: "sinkList", sinks });
+      if (sources.length > 0) sendToPropertyInspector(piContext, { event: "sourceList", sources });
     }
   });
 }
